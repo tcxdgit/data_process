@@ -1,0 +1,4 @@
+data/*
+dataset/*
+training-parallel-nc-v13/*
+*.tgz

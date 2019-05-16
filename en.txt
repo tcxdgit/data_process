@@ -1,0 +1,209 @@
+Contents
+Product overview· 1
+Introduction· 1
+Features· 1
+Front panel 2
+Rear panel 2
+LEDs· 2
+Technical specifications· 2
+Installation· 4
+Precautions· 4
+Installing the RPS unit 5
+Installing the RPS unit to a 19-inch rack· 5
+Installing the RPS unit on a tabletop· 5
+Connecting the grounding cable· 6
+Connecting the RPS unit to the powered device· 7
+The RPS800-A is an external DC power supply that uses AC input and provides DC output for multiple switch and router models as a redundant backup power supply system. 
+The RPS800-A supports cold backup of power supply, which means that the RPS800-A only switches to the RPS output state when it detects a power supply failure of the powered device.
+When the powered device’s own power supply system is functioning, the RPS only works in the monitoring mode, without feeding power to the powered device. 
+The output of the RPS800-A is controlled by a control pin.
+When the powered device’s own power supply system fails, a LOW signal is sent to the control pin of the RPS unit.
+Upon receiving this LOW signal, the RPS unit switches to the RPS output state within 2 ms.
+If using the same AC power source with the powered device, the RPS800-A can timely provide DC supply to the powered device when the internal power supply system of the powered device fails. 
+If using a different AC power source from the powered device, the RPS800-A can timely provide DC supply to the powered device when the AC power source to the device fails, thus ensuring uninterrupted operation of the device. 
+NOTE:
+For some    models of powered devices, the control pin of the RPS800-A can be controlled    through a special cable to support hot backup of power supply.
+When the    power supply systems of the powered devices operate properly, the RPS unit    also provides part of the power feed to the devices; when the power supply    system of a powered device fails, the RPS unit becomes an independent power    supply system to feed that powered device.
+The RPS800-A can provide selective DC outputs.
+Depending on the connected DC output cable(s), the RPS unit can provide +12 VDC or –54 VDC power supply to the powered device, or +12 VDC and –54 VDC outputs concurrently to the powered device. 
+NOTE:
+As    optional parts for the RPS800-A, different types DC output cables are    available depending on the requirement of the powered device.
+For more    information about the DC output cables, consult H3C marketing or customer    service staff.
+Figure 1 Front panel of the RPS800-A
+(1) AC    Input LED (PWR)
+(2) DC    output LED (OUT)
+Figure 2 Rear panel of the RPS800-A
+(1)    Grounding screw
+(2) AC    input
+(3) DC    output
+Table 1 LED description
+LED
+Mark on    panel
+Status
+Meaning
+AC input LED
+PWR
+On
+The AC input to the RPS is normal.
+Off
+The AC input to the RPS is abnormal.
+DC output LED
+OUT
+On
+The RPS works in the RPS output state and the output of the RPS is   normal.
+Off
+The RPS works in the monitoring mode and there is no output from   the RPS.
+NOTE:
+The OUT    LED lights up only when the RPS800-A switches to the RPS output state.
+When    the RPS800-A works in the monitoring mode, its OUT LED stays off.
+Table 2 Technical specifications of the RPS800-A 
+Item
+Specifications
+Dimensions   (H × W × D)
+44 × 441 ×   182 mm (1.73 × 17.36 × 7.17 in)
+Weight
+< 3.8 kg   (<8.38 lb)
+Input
+100 to 240   VAC, 50/60 Hz
+Available   outputs
+·           –54 V/12 A
+·           +12 V/17.25 A
+Maximum   power consumption
++12 V   output only
+210 W
+–54 V   output only
+650 W
++12 V and   –54 V outputs simultaneously
+·           210 W for +12 V output
+·           440 W for –54 V output
+·           Total: 650 W
+Operating   temperature 
+0°C to 45°C   (32°F to 113°F)
+Operating   relative humidity
+10% to 90%
+(non-condensing)
+NOTE:
+The design    of this product complies with environmental protection requirements.
+Be sure    to observe the relevant local laws and regulations when storing, using or    disposing of this product.
+To avoid any device impairment or bodily injury because of improper use, follow the precautions listed below:
+·           Do not place the RPS unit on an unstable case or tabletop, and ensure that the rack and the workbench are firm enough to support the RPS unit and its accessories.
+·           Make sure that the ventilation and heat dissipation systems of the rack and the table-top are good.
+Make sure that enough room is left around the air intake and outlet of the RPS unit to allow good heat dissipation.
+·           This RPS unit is designed for indoor use only.
+Make sure that the temperature in the equipment room is within the range of 0°C to 45°C (32°F to 113°F), and the humidity within the range of 10% to 90%.
+·           Keep the RPS unit away from any heavy-duty radio transmitter, radar transmitter, and high-frequency devices working in high current.
+Take electromagnetic shielding measures if necessary.
+·           Use a single-phase three-wire power socket with a neutral point connector or a multi-functional power socket for computers.
+Make sure that the neutral point of the power source is well grounded.
+·           Make sure that the power source satisfies the voltage requirement of the RPS unit.
+·           Interface cables must be routed indoors.
+Otherwise, over-voltage and over-current may damage the device.
+As for power cables from the outside of the building, you may add a dedicated lightening arrester at the input end of the cable.
+·           To enhance lightening protection, you may need to add a power lightening arrester at the input end.
+·           Wear an ESD-preventive wrist strap when installing the RPS unit, and make sure that the wrist strap makes good skin contact.
+·           To avoid electric shock, NEVER open the chassis of the RPS unit while it is in operation; try not to open the RPS unit even if it is not electrified.
+·           Unplug the power cord before cleaning the RPS unit.
+·           Keep the equipment room clean.
+The limits on the concentrations of dust and harmful gases in the equipment room are shown in the following tables:
+Table 3 Limit on dust concentration
+Mechanical    active material
+Limit    (particles/m3)
+Dust   particles
+≤ 3 ×   104 (No visible dust on tabletop over three days)
+Note: Dust   particle size ≥ 5µm
+Table 4 Limits on harmful gas concentration
+Gas
+Limit    (mg/m3)
+SO2
+0.2
+H2S
+0.006
+NH3
+0.05
+Cl2
+0.01
+The RPS800-A can be installed either in a 19-inch standard rack or directly on a tabletop. 
+Follow these steps to install the RPS unit to a 19-inch rack:
+1.
+Put on an ESD-preventive wrist strap and check the grounding and stableness of the rack. 
+2.
+Attach a mounting bracket to the front end of the RPS unit by using screws, as shown in Figure 3.
+Attach the other mounting bracket in the same way. 
+Figure 3 Install the RPS unit to a 19-inch rack (I)
+3.
+Place the RPS unit horizontally to an appropriate position in the rack, and then fix the mounting brackets to the front square-holed brackets of the rack with M6 screws and cage nuts, as shown in Figure 4. 
+Figure 4 Install the RPS unit to a 19-inch rack (II)
+If a 19-inch standard rack is not available, you can place the RPS unit directly on a clean, stable tabletop.
+Follow these steps to install the RPS unit on a tabletop: 
+1.
+Cautiously turn the RPS unit upside down.
+Then, use a piece of dry, soft cloth to remove any oil stain or dust from the dents on the bottom of the chassis. 
+2.
+Peel off the stickers on the supplied foot pads and paste the foot pads into the dents on the chassis bottom. 
+3.
+Turn over the RPS unit and place it on the tabletop.
+Verify the stableness and good grounding of the table. 
+WARNING!
+Correctly    connecting the grounding cable is crucial to lightning protection and EMI    protection.
+Follow these steps to attach the OT terminal of the grounding cable to the grounding hole of the RPS unit:
+1.
+Remove the grounding screw from the rear panel of the RPS unit.
+2.
+Attach the grounding screw to the OT terminal of the grounding cable.
+3.
+Use a screwdriver to fasten the grounding screw into the grounding screw hole.
+Figure 5 Connect the grounding cable to the grounding hole of the RPS unit
+(1) Rear panel of the RPS unit
+(2) Grounding screw
+(3) OT terminal
+(4) Grounding cable
+(5) Grounding hole
+Follow these steps to attach the other end of the grounding cable to the grounding strip: 
+1.
+Peel 5 mm (0.20 in) of insulation sheath by using a wire stripper, and insert the bare metal part through the black insulation covering into the end of the OT terminal. 
+2.
+Secure the metal part of the cable to the OT terminal with a crimper, cover the joint with the insulation covering. 
+3.
+Connect the OT terminal to the grounding pole of the grounding strip, and fasten it with a hex nut. 
+Figure 6 Connect the grounding cable to the grounding strip
+(1)    Grounding pole
+(2)    Grounding strip
+(3)   Grounding cable
+(4) Hex   nut
+The RPS800-A can be used as a redundant backup power supply unit for multiple switch and router models.
+The following describes how to connect the RPS unit to a switch. 
+1.
+Check that the power source to the RPS unit is disconnected.
+2.
+Remove the blank panel covering the redundancy power supply input of the switch.
+3.
+Plug one end of the RPS DC output cable into the redundant power supply socket on the rear panel of the switch and the other end into the DC output socket of the RPS unit.
+4.
+Connect the AC power source to the RPS unit.
+5.
+Check that the PWR LED on the front panel of the RPS unit lights up.
+Figure 7 Connect the RPS unit to a switch
+(1) RPS    AC input
+(2) RPS    rear panel
+(3) RPS DC   output
+(4) DC   power cable (optional)
+(5) Switch   redundant power supply input
+(6) Switch   rear panel
+(7) Switch   AC input
+NOTE:
+The OUT    LED lights up only when the RPS800-A switches to the RPS output state.
+When    the RPS800-A works in the monitoring mode, its OUT LED stays off.
+Product overview
+Installation
+Introduction
+Features
+Front panel
+Rear panel
+LEDs
+Technical specifications
+Precautions
+Installing the RPS unit
+Connecting the grounding cable
+Connecting the RPS unit to the powered device 
+Installing the RPS unit to a 19-inch rack
+Installing the RPS unit on a tabletop

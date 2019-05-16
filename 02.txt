@@ -1,0 +1,162 @@
+2	1	目录	Contents	
+2	2	电源系统简介	Power module overview	
+2	3	电源模块面板示意图	Front panel	
+2	4	电源模块规格	Technical specifications	
+2	5	电源模块指示灯	Status LED	
+2	6	电源模块选配原则	Power module configuration	
+2	7	安装电源模块	Installing a power module	
+2	8	安装交流电源模块及连接电源线	Installing an AC power module and connecting the power cord	
+2	9	安装交流电源模块	Installing the AC power module	
+2	10	连接交流电源线	Connecting the AC power cord	
+2	11	安装直流电源模块及连接电源线	Installing a DC power module and connecting the power cord	
+2	12	安装直流电源模块	Installing a DC power module	13	
+2	13	连接直流电源线	Connecting the DC power cords	
+2	14	更换电源模块	Replacing a power module	
+2	15	拆除交流电源线	Remove the AC power cord	
+2	16	拆除直流电源线	Remove the DC power cords	
+2	17	拆卸电源模块	Remove the DC power module	
+2	18	电源系统简介	Power module overview	
+2	19	PSR1200-A是一款交流输入、直流输出的内置电源模块；PSR1200-D是一款直流输入、直流输出的内置电源模块。	The PSR1200-A is a built-in power module with AC input and DC output, and the PSR1200-D is a built-in power module with DC input and DC output.	
+2	20	这两款电源的最大输出功率为1200W。	The maximum output power of each power module is 1200W.	
+2	21	特点	Feature	
+2	22	说明	Description	
+2	23	具有保护功能	Protection function	
+2	24	具有输入欠压保护、输入过压保护、输出过压保护、输出短路保护、输出欠流保护、输出过流保护、过热保护等功能	Protection for under-voltage input, over-voltage input, over-voltage output, output short circuit, under-current output, over-current output, and overheat.	
+2	25	支持热插拔	Support for hot swapping	
+2	26	可以在设备正常工作情况下，对该电源模块进行插拔操作	You can plug or unplug the power module when the device is operating properly.	
+2	27	支持冗余备份	Support for redundancy	
+2	28	可以实现电源模块N＋1并联或者N＋N并联工作，具体说明请参见2电源模块选配原则	The power modules can work in N+1 or N+N redundant mode. For more information, see “Power module configuration.”	
+2	29	电源模块面板示意图	Front panel	
+2	30	PSR1200-A交流电源模块	Front panel of PSR1200-A	
+2	31	电源状态指示灯	Status LED	
+2	32	电源模块拉手	Power module handle	
+2	33	松不脱螺丝	Captive screw	
+2	34	电源开关	Power switch	
+2	35	交流电源插口	Power socket	
+2	36	PSR1200-D直流电源模块	Front panel of PSR1200-D	
+2	37	电源连接器	Power source connector	
+2	38	电源指示灯	Status LED	
+2	39	电源拉手	Power module handle	
+2	40	松不脱螺丝	Captive screw	
+2	41	电源开关	Power switch	
+2	42	电源连接器紧固螺钉孔	Fastening screw hole	
+2	43	直流输入：+	Positive (+) terminal of DC input	
+2	44	直流输入：-	Negative (–) terminal of DC input	
+2	45	电源模块规格	Technical specifications	
+2	46	电源模块规格	Technical specifications for the PSR1200-A and PSR1200-D	
+2	47	项目	Item	
+2	48	PSR1200-A	PSR1200-A	
+2	49	PSR1200-D	PSR1200-D	
+2	50	额定输入电压范围	Rated input voltage	
+2	51	100～240V 50/60Hz	100 to 240 VAC (50/60 Hz)	
+2	52	-48～-60V	–48 VDC to –60 VDC	
+2	53	额定输出电压	Rated output voltage	
+2	54	12V；3.3V	12 V or 3.3 V	
+2	55	最大输入电流	Maximum input current	
+2	56	16A	16 A	
+2	57	42A	42 A	
+2	58	最大输出电流	Maximum output current	
+2	59	100A（12V）	100 A (12 V AC)	
+2	60	4A（3.3V）	4 A (3.3 V AC)	
+2	61	最大输出功率	Maximum output power	
+2	62	1213W	1213 W	
+2	63	外形尺寸（H×W×D）	Dimensions (H × W × D)	
+2	64	40.5 × 140 × 340.4 mm	40.5 × 140 × 340.4 mm	
+2	65	环境温度要求	Ambient temperature	
+2	66	工作温度	Operating temperature	
+2	67	-10～55°C	–10°C to +50°C	
+2	68	贮藏温度	Storage temperature	
+2	69	-40～70°C	–40°C to +70°C	
+2	70	电源模块指示灯	Status LED	
+2	71	可能的故障原因	Possible causes	
+2	72	绿色	Green	
+2	73	工作正常	The power module is operational.	
+2	74	红色	Red	
+2	75	电源故障	The power module is faulty.	
+2	76	电源告警（电源在输入欠压、输出短路、输出过流、输出过压、温度过高等情况下告警，并进入保护状态）	Power alarm (input under-voltage, output short circuit, output over-current, output over-voltage, or overheat occurred to the power module, and the power module took a self-protection action).	
+2	77	电源风扇故障	The power module fan is faulty.	
+2	78	灭	OFF	
+2	79	电源供电输入故障	The power input is faulty.	
+2	80	电源模块开关没有打开	The power switch is off.	
+2	81	电源线连接不正确	The power cable is connected incorrectly.	
+2	82	当电源告警（指示灯变为红色）时，请检查电源是否出现输出短路、输出过流、输出过压、温度过高等情况。	When the status LED is red, check whether the power module has encountered the following failures: output short circuit, output over-current, output over-voltage, or overheat.	
+2	83	当输出短路、输出过流、温度过高等问题解决后，电源将自动恢复正常工作。	If you have detected and removed the output short circuit, output over-current, or overheat failures, the power module automatically restores.	
+2	84	但当电源由于输出过压而告警时，会使电源进入锁死状态，此时电源不会自动恢复正常工作，请关闭电源开关并断开电源线，然后重新连接电源线打开电源开关。	However, if the power module encounters the output over-voltage failures, the power module will enter the deadlock sate, and cannot automatically restore after you remove the failures. To restore the power module in the deadlock state, turn off the power switch, unplug the power cord, plug the power cord, and then turn on the power switch.	
+2	85	请不要频繁开关电源，每次开关的时间间隔应在30秒以上。	Do not frequently turn on and turn off the power module. The interval between each turning on and turn off operation should be longer than 30 seconds.	
+2	86	断开电源输入端断路器后，电源指示灯会保持一段时间后才熄灭，此为正常现象。	After the circuit breaker that connects to a power module is off, it is normal that the LEDs on the power module last on for a while.	
+2	87	电源模块选配原则	Power module configuration	
+2	88	可以根据设备实际功耗来确定选配电源模块的数量N，根据供电情况灵活进行配电设计：	You can determine the number of power modules to be configured for the system according to the actual power consumption and power supply conditions.	
+2	89	对于双电网输入配电的用户，选择N+N配置可以实现双输入冗余配电方式；	In an environment with two power sources, you can configure N+N redundant mode.	
+2	90	对于单电网输入配电的用户，采取N+1或者N+N的配置，可以实现电源模块冗余配电；	In an environment with only one power source, you can configure N+1 or N+N redundant mode.	
+2	91	无论采取何种供电方式，为了便于使用和维护，请为每个电源的输入都配置一个合适的断路器，和电源模块直接相连的每路断路器的额定通流能力要大于25A。	For easy usage and maintenance, be sure to configure a proper circuit breaker for each power input. The rated current of the circuit breaker must be more than 25 A.	
+2	92	N的取值与设备电源槽位数有关，N+1或者N+N不大于电源槽位总数。	the value of N depends on the number of power module slots in the device. N+1 or N+N must not be more than the total number of power module slots.	
+2	93	安装电源模块	Installing a power module	
+2	94	PSR1200-A和PSR1200-D电源模块不能与其它不同型号的电源模块混插在同一台设备上，且PSR1200-A和PSR1200-D也不能在同一台设备上混插。	PSR1200-A and PSR1200-D cannot work with other models of power modules in the same device, and the PSR1200-A and PSR1200-D cannot work together in the same device.	
+2	95	当电源模块温度超过正常工作温度时，电源将自动关闭，当温度恢复到正常范围后，电源将会自动开启。	When the temperature of the power module is higher than the upper limit of the operating temperature, the power module automatically shuts down. When the temperature falls into the normal range, the power module automatically starts.	
+2	96	安装过程应严格按照以下顺序进行，否则可能产生危险。	Strictly follow the sequence to avoid possible dangers.	
+2	97	电源安装流程图	Installation flow of a power module	
+2	98	由于设备至少需要一块电源供电，因此通常情况下设备出厂时会有一个槽位未安装假面板，在这个槽位上安装电源模块时可以跳过“拆卸电源假面板”的步骤。	The device needs at least one power module to provide power supply, so the chassis has a power module slot without a blank panel. For this slot, you can skip “Remove the blank panel” in the figure above.	
+2	99	安装过程中需要使用以下工具，请用户自行准备。	Before the installation, prepare the following tools.	
+2	100	安装交流电源模块及连接电源线	Installing an AC power module and connecting the power cord	
+2	101	安装交流电源模块	Installing the AC power module	
+2	102	佩戴防静电手腕，请确保防静电手腕与皮肤良好接触，并确认防静电手腕已经良好接地。	Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.	
+2	103	拆卸假面板	Remove the blank panel	
+2	104	从电源包装盒中取出电源模块。	Unpack the power module.	
+2	105	保证电源模块安装方向正确	Put the power module to the correct position.	
+2	106	用一只手握住电源模块的拉手，另一只手托住电源模块的底部，将电源模块沿着电源插槽导轨水平插入插槽。	Holding the power module handle with one hand and supporting the power module bottom with the other hand, plug the power module into the slot along the slide rails.	
+2	107	用十字螺丝刀对准电源上的松不脱螺钉，按顺时针方向旋转直至拧紧，使电源模块固定到机箱中。	Use the Phillips screwdriver to fasten the captive screws on the power module until the power module is fixed to the chassis.	
+2	108	安装电源模块	Install the AC power module	
+2	109	连接交流电源线	Connecting the AC power cord	
+2	110	请保证每根电源线都有独立的输入断路器。	Make sure that each power cord has a separate circuit breaker.	
+2	111	连接电源线前，请将需要连接电源线的输入端断路器置于断开状态。	Turn off the circuit breaker before connecting the power cord.	
+2	112	确认电源开关处于关闭状态。	Make sure the power switch is in the OFF position.	
+2	113	将交流电源线插头插到电源模块的电源插座上。	Plug one end of the power cable shipped with the device into the power socket.	
+2	114	用可拆卸式扎带将电源线固定在电源模块的拉手处	Fix the power cord to the power module handle by using a cable tie.	
+2	115	连接并固定交流电源线	Connect and fix the power cord	
+2	116	将电源线的另一端插到交流供电系统的插座上，并连通电源输入端的断路器。	Plug the other end into the AC power socket of the AC power source, and turn on the circuit breaker of the power cord.	
+2	117	打开电源模块开关，并查看电源的状态指示灯，如果状态指示灯亮，说明电源线连接成功。	Turn on the power switch, and check that the status LED is ON. It indicates that the power cord is correctly connected.	
+2	118	如果指示灯不亮，仔细检查安装情况，排除各种故障后，再次尝试，直到电源输入状态指示灯亮。	If the status LED is OFF, troubleshoot the installation process until the status LED is ON.	
+2	119	安装直流电源模块及连接电源线	Installing a DC power module and connecting the power cord	
+2	120	安装直流电源模块	Installing a DC power module	
+2	121	佩戴防静电手腕，请确保防静电手腕与皮肤良好接触，并确认防静电手腕已经良好接地。	Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.	
+2	122	用十字螺丝刀按逆时针方向松开电源假面板上的松不脱螺钉，拔出假面板，如图4 所示。	Use the Phillips screwdriver to loosen the captive screws on the blank panel, and remove the blank panel from the slot to be used, as shown in Figure 4	
+2	123	从电源模块包装盒中取出直流电源模块，并根据电源模块面板上的“+”、“-”标识对应的在电源连接器上标记“+”、“-”极。	Unpack the DC power module, and mark the positive terminal and negative terminal of the power module according to the marks on the power module panel.	
+2	124	使用十字螺丝刀逆时针方向松开直流电源模块连接器上的松不脱螺钉，将电源连接器从电源模块上拆除放在一边备用。	Use the Philips screwdriver to loosen the captive screws at the right side of the power source connector, remove the power source connector from the power module, and keep it for future use.	
+2	125	拆除电源模块上的连接器	Remove the power source connector from the power module	
+2	126	确保电源模块安装方向正确	Put the power module to the correct position.	
+2	127	用一只手握住电源模块的拉手，另一只手托住电源模块的底部，将电源模块沿着电源插槽导轨水平插入插槽。	Holding the power module handle with one hand and supporting the power module bottom with the other hand, plug the power module into the slot along the slide rails.	
+2	128	用十字螺丝刀对准电源上的松不脱螺钉，按顺时针方向旋转直至拧紧，使电源模块固定到机箱中。	Use the Phillips screwdriver to fasten the captive screws on the power module until the power module is fixed to the chassis.	
+2	129	安装直流电源模块示意图	Install the DC power module	
+2	130	连接直流电源线	Connecting the DC power cords	
+2	131	直流电源线示意图	Connect the DC power cords	
+2	132	将直流电源模块随机附带的直流电源线标有“-”的一端（蓝色）插到电源连接器 标有“-”的端子上，并拧紧紧固螺钉。	Plug one end of the shipped DC power cord marked with “–”, a blue power cord, into the terminal marked with “–”, and fasten the screw to fix the cord.	
+2	133	将标有“+”的一端（黑色）插到标有“+”的端子上，并拧紧紧固螺钉。	Plug one end of the shipped DC power cord marked with “+”, a black power cord, into the terminal marked with “+”, and fasten the screw to fix the cord.	
+2	134	将直流电源线安装到电源连接器	Connect the DC power cords to the power source connector	
+2	135	确定电源连接器安装的方向，将电源连接器插入到直流电源模块，并用十字螺丝刀顺时针方向拧紧松不脱螺钉。	Put the power source connector to a correct position, plug the power source connector into the DC power module, and use the Philips screwdriver to fasten the captive screw at the right side to fix the power source connector to the power module.	
+2	136	将电源连接器安装到电源模块	plug the power source connector into the DC power module	
+2	137	将电源线的另一端接到直流供电设备上，并连通电源输入端的断路器。	Plug the other end into the DC power source, and turn on the circuit breaker of the power cord.	
+2	138	打开电源模块开关，并查看电源的状态指示灯，如果状态指示灯亮，说明电源线连接成功。	Turn on the power switch, and check that the status LED is ON. It indicates that the power cord is correctly connected.	
+2	139	如果指示灯不亮，仔细检查安装情况，排除各种故障后，再次尝试，直到电源输入状态指示灯亮。	If the status LED is OFF, troubleshoot the installation process until the status LED is ON.	
+2	140	更换电源模块	Replacing a power module	
+2	141	拆卸过程请严格按照图12 顺序进行，以免发生危险。	Figure 12 illustrates the flow for replacing a power module. Strictly follow the sequence to avoid possible dangers.	
+2	142	电源拆卸流程图	Replacement flow of a power module	
+2	143	拆卸过程中需要使用的工具包括：防静电手腕、1号十字螺丝刀，请用户自行准备。	Before replacing a power module, prepare an ESD-preventive wrist strap and a #1 Phillips screwdriver.	
+2	144	拆除交流电源线	Remove the AC power cord	
+2	145	佩戴防静电手腕，请确保防静电手腕与皮肤良好接触，并确认防静电手腕已经良好接地。	Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.	
+2	146	关闭电源开关。	Turn off the power switch.	
+2	147	断开电源输入端断路器。	Turn off the circuit breaker of the power cord.	
+2	148	松开固定电源线的可拆卸式扎带，拔出交流电源插头。	Loosen the cable tie that fixes the power cord to the power module handle, and unplug the AC power cord connector.	
+2	149	断开电源输入端断路器后，电源指示灯会保持一段时间后才熄灭，此为正常现象。	After the circuit breaker that connects to a power module is off, it is normal that the LEDs on the power module last on for a while.	
+2	150	拆除直流电源线	Remove the DC power cords	
+2	151	佩戴防静电手腕，请确保防静电手腕与皮肤良好接触，并确认防静电手腕已经良好接地。	Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.	
+2	152	关闭电源开关。	Turn off the power switch.	
+2	153	断开电源输入端断路器。	Turn off the circuit breaker of the power cord.	
+2	154	使用十字螺丝刀逆时针方向松开电源连接器右侧的松不脱螺钉，将电源线连同电源连接器一起拔出。	Use the Philips screwdriver to loosen the captive screw at the right side of the power source connector, and pull the power source connector out together with the DC power cords.	
+2	155	拆卸直流电源线	Remove the DC power cords	
+2	156	拆卸电源模块	Remove the DC power module	
+2	157	用十字螺丝刀按逆时针方向松开待拆卸电源模块上的松不脱螺钉。	Use the Phillips screwdriver to loosen the captive screws on the power module.	
+2	158	用一只手抓住电源模块上的拉手，将电源模块拉出一部分，然后用另一只手托住电源模块底部，将电源模块缓慢拉出。	Grasping the handle of the power module with one hand, pull the power module part way out. Grasping the handle of the power module with one hand and supporting the bottom of the power module with the other hand, pull the module slowly along the guide rails out of the slot.	
+2	159	电源拆卸示意图	Remove the DC power module	
+2	160	将拆卸下来的电源模块放置到防静电垫子上。	Put the power module on an antistatic mat.	
+2	161	将新的电源模块安装到电源模块插槽上，用螺丝刀按顺时针方向拧紧松不脱螺钉。	Plug a new DC power module into the slot, and use the Philips screwdriver to fasten the captive screws on both sides of the power module.	
+2	162	若需要将拆卸下的电源模块重新安装到电源插槽中时，请务必在电源模块的状态指示灯完全熄灭后再进行安装。	Before plugging a removed power module into a power module slot, make sure that the LED on the power module is off.	

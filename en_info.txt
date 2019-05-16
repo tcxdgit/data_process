@@ -1,0 +1,162 @@
+Contents
+Power module overview
+Front panel
+Technical specifications
+Status LED
+Power module configuration
+Installing a power module
+Installing an AC power module and connecting the power cord
+Installing the AC power module
+Connecting the AC power cord
+Installing a DC power module and connecting the power cord
+Installing a DC power module
+Connecting the DC power cords
+Replacing a power module
+Remove the AC power cord
+Remove the DC power cords
+Remove the DC power module
+Power module overview
+The PSR1200-A is a built-in power module with AC input and DC output, and the PSR1200-D is a built-in power module with DC input and DC output.
+The maximum output power of each power module is 1200W.
+Feature
+Description
+Protection function
+Protection for under-voltage input, over-voltage input, over-voltage output, output short circuit, under-current output, over-current output, and overheat.
+Support for hot swapping
+You can plug or unplug the power module when the device is operating properly.
+Support for redundancy
+The power modules can work in N+1 or N+N redundant mode. For more information, see “Power module configuration.”
+Front panel
+Front panel of PSR1200-A
+Status LED
+Power module handle
+Captive screw
+Power switch
+Power socket
+Front panel of PSR1200-D
+Power source connector
+Status LED
+Power module handle
+Captive screw
+Power switch
+Fastening screw hole
+Positive (+) terminal of DC input
+Negative (–) terminal of DC input
+Technical specifications
+Technical specifications for the PSR1200-A and PSR1200-D
+Item
+PSR1200-A
+PSR1200-D
+Rated input voltage
+100 to 240 VAC (50/60 Hz)
+–48 VDC to –60 VDC
+Rated output voltage
+12 V or 3.3 V
+Maximum input current
+16 A
+42 A
+Maximum output current
+100 A (12 V AC)
+4 A (3.3 V AC)
+Maximum output power
+1213 W
+Dimensions (H × W × D)
+40.5 × 140 × 340.4 mm
+Ambient temperature
+Operating temperature
+–10°C to +50°C
+Storage temperature
+–40°C to +70°C
+Status LED
+Possible causes
+Green
+The power module is operational.
+Red
+The power module is faulty.
+Power alarm (input under-voltage, output short circuit, output over-current, output over-voltage, or overheat occurred to the power module, and the power module took a self-protection action).
+The power module fan is faulty.
+OFF
+The power input is faulty.
+The power switch is off.
+The power cable is connected incorrectly.
+When the status LED is red, check whether the power module has encountered the following failures: output short circuit, output over-current, output over-voltage, or overheat.
+If you have detected and removed the output short circuit, output over-current, or overheat failures, the power module automatically restores.
+However, if the power module encounters the output over-voltage failures, the power module will enter the deadlock sate, and cannot automatically restore after you remove the failures. To restore the power module in the deadlock state, turn off the power switch, unplug the power cord, plug the power cord, and then turn on the power switch.
+Do not frequently turn on and turn off the power module. The interval between each turning on and turn off operation should be longer than 30 seconds.
+After the circuit breaker that connects to a power module is off, it is normal that the LEDs on the power module last on for a while.
+Power module configuration
+You can determine the number of power modules to be configured for the system according to the actual power consumption and power supply conditions.
+In an environment with two power sources, you can configure N+N redundant mode.
+In an environment with only one power source, you can configure N+1 or N+N redundant mode.
+For easy usage and maintenance, be sure to configure a proper circuit breaker for each power input. The rated current of the circuit breaker must be more than 25 A.
+the value of N depends on the number of power module slots in the device. N+1 or N+N must not be more than the total number of power module slots.
+Installing a power module
+PSR1200-A and PSR1200-D cannot work with other models of power modules in the same device, and the PSR1200-A and PSR1200-D cannot work together in the same device.
+When the temperature of the power module is higher than the upper limit of the operating temperature, the power module automatically shuts down. When the temperature falls into the normal range, the power module automatically starts.
+Strictly follow the sequence to avoid possible dangers.
+Installation flow of a power module
+The device needs at least one power module to provide power supply, so the chassis has a power module slot without a blank panel. For this slot, you can skip “Remove the blank panel” in the figure above.
+Before the installation, prepare the following tools.
+Installing an AC power module and connecting the power cord
+Installing the AC power module
+Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.
+Remove the blank panel
+Unpack the power module.
+Put the power module to the correct position.
+Holding the power module handle with one hand and supporting the power module bottom with the other hand, plug the power module into the slot along the slide rails.
+Use the Phillips screwdriver to fasten the captive screws on the power module until the power module is fixed to the chassis.
+Install the AC power module
+Connecting the AC power cord
+Make sure that each power cord has a separate circuit breaker.
+Turn off the circuit breaker before connecting the power cord.
+Make sure the power switch is in the OFF position.
+Plug one end of the power cable shipped with the device into the power socket.
+Fix the power cord to the power module handle by using a cable tie.
+Connect and fix the power cord
+Plug the other end into the AC power socket of the AC power source, and turn on the circuit breaker of the power cord.
+Turn on the power switch, and check that the status LED is ON. It indicates that the power cord is correctly connected.
+If the status LED is OFF, troubleshoot the installation process until the status LED is ON.
+Installing a DC power module and connecting the power cord
+Installing a DC power module
+Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.
+Use the Phillips screwdriver to loosen the captive screws on the blank panel, and remove the blank panel from the slot to be used, as shown in Figure 4
+Unpack the DC power module, and mark the positive terminal and negative terminal of the power module according to the marks on the power module panel.
+Use the Philips screwdriver to loosen the captive screws at the right side of the power source connector, remove the power source connector from the power module, and keep it for future use.
+Remove the power source connector from the power module
+Put the power module to the correct position.
+Holding the power module handle with one hand and supporting the power module bottom with the other hand, plug the power module into the slot along the slide rails.
+Use the Phillips screwdriver to fasten the captive screws on the power module until the power module is fixed to the chassis.
+Install the DC power module
+Connecting the DC power cords
+Connect the DC power cords
+Plug one end of the shipped DC power cord marked with “–”, a blue power cord, into the terminal marked with “–”, and fasten the screw to fix the cord.
+Plug one end of the shipped DC power cord marked with “+”, a black power cord, into the terminal marked with “+”, and fasten the screw to fix the cord.
+Connect the DC power cords to the power source connector
+Put the power source connector to a correct position, plug the power source connector into the DC power module, and use the Philips screwdriver to fasten the captive screw at the right side to fix the power source connector to the power module.
+plug the power source connector into the DC power module
+Plug the other end into the DC power source, and turn on the circuit breaker of the power cord.
+Turn on the power switch, and check that the status LED is ON. It indicates that the power cord is correctly connected.
+If the status LED is OFF, troubleshoot the installation process until the status LED is ON.
+Replacing a power module
+Figure 12 illustrates the flow for replacing a power module. Strictly follow the sequence to avoid possible dangers.
+Replacement flow of a power module
+Before replacing a power module, prepare an ESD-preventive wrist strap and a #1 Phillips screwdriver.
+Remove the AC power cord
+Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.
+Turn off the power switch.
+Turn off the circuit breaker of the power cord.
+Loosen the cable tie that fixes the power cord to the power module handle, and unplug the AC power cord connector.
+After the circuit breaker that connects to a power module is off, it is normal that the LEDs on the power module last on for a while.
+Remove the DC power cords
+Wear an ESD-preventive wrist strap, and make sure that the wrist strap makes good skin contact and is properly grounded.
+Turn off the power switch.
+Turn off the circuit breaker of the power cord.
+Use the Philips screwdriver to loosen the captive screw at the right side of the power source connector, and pull the power source connector out together with the DC power cords.
+Remove the DC power cords
+Remove the DC power module
+Use the Phillips screwdriver to loosen the captive screws on the power module.
+Grasping the handle of the power module with one hand, pull the power module part way out. Grasping the handle of the power module with one hand and supporting the bottom of the power module with the other hand, pull the module slowly along the guide rails out of the slot.
+Remove the DC power module
+Put the power module on an antistatic mat.
+Plug a new DC power module into the slot, and use the Philips screwdriver to fasten the captive screws on both sides of the power module.
+Before plugging a removed power module into a power module slot, make sure that the LED on the power module is off.

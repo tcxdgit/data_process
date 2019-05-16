@@ -1,0 +1,162 @@
+Directory
+Introduction to power supply systems
+Power Module Panel diagram
+Power Module Specifications
+Power Module LEDs
+Power Module Selection principle
+Installing the Power module
+Installing AC power modules and connecting power cords
+Installing AC power Modules
+Connect the AC power cord
+Installing DC power modules and connecting power cords
+Installing the DC power module
+Connect the DC power cord
+Replacing the Power module
+Demolition of AC power cord
+Removing the DC power cord
+Removing the Power module
+Introduction to power supply systems
+PSR1200-A is a AC input, DC output of the built-in power module; PSR1200-D is a DC input, DC output of the built-in power module.
+The maximum output power of these two power supplies is 1200W.
+Characteristics
+Note
+Has protection features
+With input undervoltage protection, input overvoltage protection, output overvoltage protection, output short-circuit protection, output overflow protection, output overcurrent protection, overheat protection and other functions
+Support for hot-swappable
+The Power module can be interpolated under normal operation of the device
+Support for redundant backups
+Can realize the Power module N+1 parallel or N+N parallel work, please refer to the 2 Power module selection principle
+Power Module Panel diagram
+PSR1200-A AC power Module
+Power Status Indicator
+Power Module Handle
+Loose Screws
+Power switch
+AC Power Socket
+PSR1200-D DC Power Module
+Power connectors
+Power LED
+Power handle
+Loose Screws
+Power switch
+Power connector fastening Screw hole
+DC input: +
+DC Input:-
+Power Module Specifications
+Power Module Specifications
+Project
+PSR1200-A
+PSR1200-D
+Rated input voltage range
+100~240V 50/60Hz
+-48~-60V
+Rated output voltage
+12V;3.3V
+Maximum input current
+16A
+42A
+Maximum Output current
+100A (12V)
+4A (3.3V)
+Maximum output power
+1213W
+Dimensions (HxWxD)
+40.5x140x340.4 mm
+Ambient temperature requirements
+Operating temperature
+-10~55°C
+Storage temperature
+-40~70°C
+Power Module LEDs
+Possible causes of failure
+Green
+Working properly
+Red
+Power supply failure
+Power Alarm (power supply in the input undervoltage, output short circuit, output overcurrent, output overvoltage, temperature is too high, such as alarm, and into the protection State)
+Power Fan Failure
+Out
+Power supply Input failure
+The Power module switch is not turned on
+The power cord is not connected correctly
+When the power alarm (the light turns red), check the power supply for output short circuit, output overcurrent, output overvoltage, temperature is too high and so on.
+When the output short circuit, output overcurrent, high temperature and other problems are resolved, the power supply will automatically return to normal operation.
+However, when the power supply due to the output overvoltage and alarm, will make the power supply into the lock state, at this time the power supply will not automatically return to normal operation, please turn off the power switch and disconnect the power cord, and then reconnect the power cord to turn on the power switch.
+Do not switch the power supply frequently, the time interval of each switch should be more than 30 seconds.
+After disconnecting the power input circuit breaker, the power LED will remain in place for a period of time before it is extinguished, which is normal.
+Power Module Selection principle
+The number of optional power modules can be determined according to the actual power consumption of the equipment N, and the distribution design is flexible according to the power supply situation:
+For dual-grid input and distribution users, the choice of N+N configuration can achieve dual input redundant distribution mode;
+For single-grid input and distribution users, the use of N+1 or N+N configuration, can achieve redundant power supply module distribution;
+Regardless of the power supply method, for ease of use and maintenance, configure a suitable circuit breaker for each power supply input, and the rated flow capacity of each circuit breaker directly connected to the Power module is greater than 25A.
+The value of N is related to the number of power slots in the device, and the N+1 or N+N is not greater than the total number of power slot bits.
+Installing the Power module
+The PSR1200-A and PSR1200-D power modules cannot be mixed with other different models of power modules on the same device, and PSR1200-A and PSR1200-D cannot be mixed on the same device.
+When the power module temperature exceeds the normal operating temperature, the power supply will automatically turn off, and when the temperature returns to its normal range, the power supply will automatically turn on.
+The installation process should be carried out strictly in the following order, otherwise it may create a danger.
+Power supply Installation Flowchart
+Because the device requires at least one power supply, it is common for the device to leave a slot without a fake panel installed at the factory, and the "Remove power fake panel" step can be skipped when the Power module is installed on this slot.
+The following tools are required during installation, and users are prepared to do so.
+Installing AC power modules and connecting power cords
+Installing AC power Modules
+Wear anti-static wrist, please ensure that anti-static wrist and skin good contact, and confirm that anti-static wrist has been well grounded.
+Remove the fake panel
+Remove the power module from the Power box.
+Ensure that the Power module is installed in the correct direction
+Hold the handle of the power module with one hand, hold the bottom of the power module with the other hand, and insert the Power module into the slot horizontally along the Power slot guide.
+Align the loose screws on the power supply with a cross screwdriver, rotate clockwise until tightened, and secure the Power module to the chassis.
+Installing the Power module
+Connect the AC power cord
+Make sure that each power cord has a separate input circuit breaker.
+Before connecting the power cord, place the input circuit breaker that needs to be connected to the power cord in a disconnected state.
+Verify that the power switch is turned off.
+Plug the AC power cord into the power outlet of the Power module.
+Secure the power cord to the handle of the power module with a removable strap
+Connect and secure AC power cords
+Plug the other end of the power cord into the socket of the AC power supply system and connect the circuit breaker to the supply input.
+Turn on the Power module switch and view the status indicator for the power supply, which indicates that the power cord connection was successful if the status light is on.
+If the indicator light is not lit, carefully check the installation, troubleshoot various faults, try again until the power input status light is on.
+Installing DC power modules and connecting power cords
+Installing the DC power module
+Wear anti-static wrist, please ensure that anti-static wrist and skin good contact, and confirm that anti-static wrist has been well grounded.
+Release the loose screws on the power false panel in a counterclockwise direction with a cross screwdriver and unplug the fake panel, as shown in Figure 4.
+Remove the DC power module from the Power module box and mark the "+", "-" poles on the power connector according to the "+" and "-" logos on the Power module panel.
+Loosen the loosening screws on the DC power module connector counterclockwise with a cross screwdriver, remove the power connector from the Power module and set aside.
+Remove the connector on the Power module
+Make sure the Power module is installed in the correct direction
+Hold the handle of the power module with one hand, hold the bottom of the power module with the other hand, and insert the Power module into the slot horizontally along the Power slot guide.
+Align the loose screws on the power supply with a cross screwdriver, rotate clockwise until tightened, and secure the Power module to the chassis.
+Installation of DC power module diagram
+Connect the DC power cord
+DC Power Cord Diagram
+Plug the one end (blue) of the DC power cord labeled "-" that is randomly attached to the DC power module into the terminal labeled "-" with the power connector and tighten the screws tightly.
+Plug the end (black) labeled "+" into the terminal labeled "+" and tighten the screws tightly.
+Install the DC power cord to the power connector
+Determine the direction of the power connector installation, plug the Power connector into the DC power module, and tighten the loosening screws clockwise with a cross screwdriver.
+Installing the power connector to the Power module
+Connect the other end of the power cord to the DC power supply device and connect the circuit breaker to the power input.
+Turn on the Power module switch and view the status indicator for the power supply, which indicates that the power cord connection was successful if the status light is on.
+If the indicator light is not lit, carefully check the installation, troubleshoot various faults, try again until the power input status light is on.
+Replacing the Power module
+The disassembly process should be carried out strictly in the order of Figure 12 to avoid danger.
+Power Disassembly flowchart
+The tools that need to be used during disassembly include: anti-static wrist, no. 1th Cross Screwdriver, please prepare the user.
+Demolition of AC power cord
+Wear anti-static wrist, please ensure that anti-static wrist and skin good contact, and confirm that anti-static wrist has been well grounded.
+Turn off the power switch.
+Disconnect the power input circuit breaker.
+Loosen the removable strap of the fixed power cord and unplug the AC power plug.
+After disconnecting the power input circuit breaker, the power LED will remain in place for a period of time before it is extinguished, which is normal.
+Removing the DC power cord
+Wear anti-static wrist, please ensure that anti-static wrist and skin good contact, and confirm that anti-static wrist has been well grounded.
+Turn off the power switch.
+Disconnect the power input circuit breaker.
+Use the cross screwdriver to loosen the loose screws on the right side of the power connector counterclockwise and unplug the power cord along with the power connector.
+Remove DC power cord
+Removing the Power module
+Loosen the loosening screws on the power module to be removed in a counterclockwise direction with a cross screwdriver.
+Grab the handle on the power module with one hand, pull the power module out of the section, and then hold the bottom of the power module with the other hand to slowly pull the power module out.
+Power Disassembly diagram
+Place the removed power module on the anti-static mat.
+Install the new power module into the Power module slot and tighten the loosening screws in a clockwise direction with a screwdriver.
+If you need to reinstall the removed power module into the power supply slot, be sure to install the Power module's status indicator before it is completely extinguished.

@@ -1,0 +1,89 @@
+Directory
+1 Product Introduction 1
+1.1 Product Profile 1
+1.2 Product Features 1
+1.3 Front Panel 2
+1.4 Rear Panel 2
+1.5 Indicator Light Description 3
+1.6 Product Specifications 3
+2 Installation 5
+2.1 Installation Considerations 5
+2.2 Installing RPS6
+2.2.1 Install RPS to 19-inch cabinets 6
+2.2.2 Install RPS to Workbench 8
+2.3 Connecting ground wire 8
+2.4 Connecting RPS and Power devices 10
+RPS800-A is an external DC power supply with AC input and DC output, which can be used as a redundant backup power supply for multiple devices (switches, routers, etc.).
+RPS800-A mainly adopts the cold backup mechanism, that is, it is only in the monitoring state when the power supply system of the electric equipment is normal, and quickly switches to the RPS power supply state when the power supply system of the electric device is abnormal, which guarantees the continuous normal operation of the electric equipment.
+Its output state is controlled by a control PIN, and when the power supply of the electrical device itself is abnormal, a "low" signal is sent to the RPS control PIN, and after receiving the "low" signal, the RPS power supply will switch to the RPS power supply state within 2ms.
+If the RPS800-A and the electrically charged equipment use the same AC power supply system, it can provide DC power supply in time when the internal supply of electrical equipment is abnormal;
+If the RPS800-A and the electric device use different AC power supply system, it can also continue to provide DC power supply in the event of failure of the external power supply of the electric equipment, to ensure the continuous normal operation of the equipment.
+The DC output of the RPS800-A is optional.
+By connecting different DC output cables, +12V or -54V DC power supply can be provided for electrical equipment, and +12V and -54V can also be supplied at the same time to meet the different requirements of various electrical equipment.
+Front panel diagram
+Rear panel diagram
+LED meaning
+RPS800-A Specifications
+In order to avoid equipment damage and personal injury caused by improper use, please follow the following precautions:
+Do not place the device on an unstable box or table and confirm that the cabinet and Workbench are strong enough to support the weight of the equipment and its mounting accessories.
+Confirm that the cabinet and Workbench itself have a good ventilation and cooling system.
+Confirm that there is room at the inlet and vents of the equipment to facilitate the heat dissipation of the equipment chassis.
+Equipment can only be installed indoors, please ensure that the indoor temperature within the 0℃~45℃ range, humidity in the 10%~90% range.
+Equipment duty station should be away from the strong power radio transmitter, radar transmitter, high-frequency high-current equipment, if necessary, the use of electromagnetic shielding method.
+Use a single-phase third-line power outlet with a neutral point connector, or a multifunctional PC power outlet, and ensure that the neutral point of the power supply is reliably grounded in the building.
+Verify that the supplied operating voltage corresponds to the voltage indicated by the device.
+Interface cables require an indoor wiring and a ban on outdoor wiring to prevent damage to the device interface due to overvoltage and overcurrent caused by lightning.
+For power cords connected to the outdoors, consider adding a dedicated lightning protection device to the input end of the power cord.
+To enhance the lightning protection effect of the power supply, consider adding a power arrester to the input front end of the power supply.
+When installing the equipment, please pay attention to wearing anti-static wrist, and ensure that the anti-static wrist and skin good contact.
+To reduce the risk of electric shock, do not open the housing while the equipment is working, and do not open the device chassis at will, even when it is not charged.
+Unplug the power supply before cleaning the device.
+Please keep the cleanliness in the engine room, the dust content in the engine room and the specific limit values of harmful gases are shown in table 3 and table 4 below:
+Dust content requirements in engine room
+Harmful gas limit values in engine room
+The RPS800-A can be mounted either on a 19-inch standard cabinet or directly on the workbench.
+The first step: Bring an anti-static wristband and check the grounding and stability of the cabinet.
+The second step: use the hanging ear screws to mount one end of the hanging ear to the RPS power supply, as shown in Figure 3.
+The figure is indicated by a hanging ear mounted to the side of the switch, and the other hanging ear is installed in a similar way and is no longer described repeatedly.
+Install RPS to 19-inch cabinet diagram One
+The third step: Place the RPS power level in the appropriate position of the cabinet, through the M6 screws and supporting floating nuts, the other end of the hanging ear will be fixed on the front hole bar of the cabinet, as shown in Figure 4.
+Install RPS to 19-inch cabinet Diagram II
+Without a 19-inch standard cabinet, the RPS power supply can be placed directly on a clean and smooth workbench, and the installation process is as follows:
+The first step: carefully invert the RPS.
+Clean the groove on the bottom plate of the machine with a dry soft cloth to ensure that there is no oil or dust adsorption.
+The second step: Rip off the pasted paper on the surface of the pad that is randomly attached.
+Paste the pad into the groove on the bottom plate of the machine.
+The third step: put RPS forward and place it on the workbench.
+Pay attention to ensure the smoothness of the workbench and good grounding.
+Connect the OT terminal at one end of the ground to the grounding hole of RPS, as follows:
+The first step: Remove the grounding screws from the rear panel of the RPS chassis.
+The second step: set the OT terminal of the grounding wire that is randomly attached to the RPS on the grounding screw.
+The third step: the grounding screws with OT terminals are mounted on the grounding hole and tightened with a screwdriver.
+Connect the protection ground to the grounding hole of RPS
+The other end of the grounding line the user needs to install the OT terminal themselves and then connect it to the grounding row, as follows:
+The first step: peel off about 5mm of insulated rubber with a stripping clamp to remove the exposed wire through the black insulated cover and insert it into the end of the OT terminal.
+The second step: tighten The wire with the end of the OT terminal with a crimping clamp and seal the contact point with a black insulated protective sleeve.
+The third step: the OT terminal is arranged on the grounding column of the grounding row, and the grounding line is fastened to the grounding column with a hexagonal nut.
+Connection protection ground line to grounding row
+RPS800-A can be used as a redundant backup power source for multiple network devices (switches, routers, etc.).
+The following is an example of a switch that illustrates the connection process between RPS and the electrically charged device.
+RPS and switch connection diagrams
+The first step: check to make sure that the RPS power supply is powered off.
+The second step: Remove the fake panel from the redundant power input port of the electrically charged device.
+The third step: plug one end of the optional RPS DC cable into the redundant power outlet of the electrically charged device and the other end into the DC output outlet of RPS.
+Step fourth: Connect the RPS AC input power supply.
+Step fifth: Check that the Power status indicator (PWR) of the RPS panel is lit, and the light is lit to indicate that the RPS power supply is normal.
+Product introduction
+Installation
+Product profile
+Product Features
+Front panel
+Rear panel
+Indicator Light Description
+Product Specifications
+Installation Considerations
+Installing RPS
+Connecting Ground wire
+Connect RPS and electrically charged devices
+Install RPS to 19-inch cabinets
+Installing RPS to Workbench
